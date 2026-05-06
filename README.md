@@ -107,29 +107,6 @@ Cross-model comparison and visualizations are in visualization/comparison.ipynb.
 
 ---
 
-## 📂 Repository Structure
-
-    brain-tumor-classification/
-    │
-    ├── notebooks/                          # One Colab notebook per model
-    │   ├── efficientnet_notebook.ipynb
-    │   ├── vit_notebook.ipynb
-    │   ├── swint_temporal_notebook.ipynb
-    │   └── swint_mil_notebook.ipynb
-    │
-    ├── results/                            # Standardized JSON output per model
-    │   ├── efficientnet_results.json
-    │   ├── vit_results.json
-    │   ├── swint_temporal_results.json
-    │   └── swint_mil_results.json
-    │
-    ├── visualization/                      # Cross-model comparison notebook
-    │   └── comparison.ipynb
-    │
-    └── README.md
-
----
-
 ## 📚 References
 
 1. [EfficientNet](https://arxiv.org/pdf/1905.11946) — Tan & Le, 2019
